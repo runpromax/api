@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Posts & Comments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Facebook Post & Comments</h1>
+
+    <!-- এখানে সব পোস্ট ডাইনামিকালি ঢুকবে -->
+    <div id="posts"></div>
+
+    <!-- পোস্টের জন্য HTML ব্লুপ্রিন্ট (স্ক্রিনে সরাসরি দেখাবে না) -->
+    <template id="postTemplate">
+        <div class="post-card">
+            <h3 class="post-title"></h3>
+            <p class="post-body"></p>
+            <button class="see-btn">See Comments</button>
+            <div class="comments-area"></div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
